@@ -1,4 +1,6 @@
-# sys-docker_rstudio
+# Setup of RStudio-docker 
+
+## How to activate 
 
 This repo is to manage RStduio with docker setting. Usually, I run RStudio with docker-compose. 
 
@@ -6,7 +8,7 @@ This repo is to manage RStduio with docker setting. Usually, I run RStudio with 
 sudo docker-compose up -d 
 ```
 
-Environment setting is as follows 
+## Environment setting is as follows 
 
 ```
  rstudio:
@@ -31,3 +33,10 @@ Should-be customed parts are
 * In `environment`
   * `ROOT=TRUE` is to enable root in docker 
   * `PASSWORD=1022` is login password  
+
+
+## Updated 
+
+- `setup.sh`
+  - Bootsup bash script 
+  - If you see "sudo error", ignore it. 
